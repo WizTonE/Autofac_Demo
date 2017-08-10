@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace AutofacDemo.Class
 {
-    public class Sedan : AbstractCar
+    public class Hatchback : AbstractCar
     {
         private Guid _UniqueKey = Guid.NewGuid();
-        public override Guid Uniqkey { get => _UniqueKey; }
+        public override Guid Uniqkey { get => _UniqueKey;}
     }
 }

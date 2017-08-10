@@ -46,10 +46,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\AbstractCar.cs" />
+    <Compile Include="Abstract\AbstractFactory.cs" />
+    <Compile Include="Class\Hatchback.cs" />
     <Compile Include="Class\Sedan.cs" />
+    <Compile Include="Class\SportsCar.cs" />
+    <Compile Include="Class\Truck.cs" />
     <Compile Include="Interface\ICar.cs" />
+    <Compile Include="Interface\IFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\FactoryService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutofacDemo
+namespace AutofacDemo.Interface
 {
-    public interface ICar
+    public interface IFactory
     {
-        Guid Uniqkey { get; set; }
     }
 }

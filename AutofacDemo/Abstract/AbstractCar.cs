@@ -10,5 +10,6 @@ namespace AutofacDemo.Abstract
     {
         public int Doors { get; set; }
         public int Tires { get; set; }
+        public virtual Guid Uniqkey { get; set; }
     }
 }

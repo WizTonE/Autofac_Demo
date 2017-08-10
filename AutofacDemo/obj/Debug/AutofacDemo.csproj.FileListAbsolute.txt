@@ -1,0 +1,8 @@
+D:\Research\Autofac_Demo\AutofacDemo\obj\Debug\AutofacDemo.csprojResolveAssemblyReference.cache
+D:\Research\Autofac_Demo\AutofacDemo\bin\Debug\AutofacDemo.exe.config
+D:\Research\Autofac_Demo\AutofacDemo\bin\Debug\AutofacDemo.exe
+D:\Research\Autofac_Demo\AutofacDemo\bin\Debug\AutofacDemo.pdb
+D:\Research\Autofac_Demo\AutofacDemo\bin\Debug\Autofac.dll
+D:\Research\Autofac_Demo\AutofacDemo\bin\Debug\Autofac.xml
+D:\Research\Autofac_Demo\AutofacDemo\obj\Debug\AutofacDemo.exe
+D:\Research\Autofac_Demo\AutofacDemo\obj\Debug\AutofacDemo.pdb
