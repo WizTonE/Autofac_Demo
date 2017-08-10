@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Autofac;
+using AutofacDemo.Class;
+using System.Reflection;
 
 namespace AutofacDemo
 {
@@ -10,6 +8,15 @@ namespace AutofacDemo
     {
         static void Main(string[] args)
         {
+            var builder = new ContainerBuilder();
+            builder.RegisterType<Sedan>().As<ICar>();
+            builder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly());
+
+            var container = builder.Build();
+            using (var scope = container.BeginLifetimeScope())
+            {
+                var car = container.Resolve<ICar>();
+            }
         }
     }
 }
